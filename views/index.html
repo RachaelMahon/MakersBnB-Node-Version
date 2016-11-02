@@ -3,9 +3,25 @@
   <html>
     <head>
       <meta charset="utf-8">
+      <link rel="stylesheet" type="text/css" href="./stylesheets/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="./javascripts/properties.js"></script>
+    <!-- <script src="./models/addresses.js"></script> -->
+    <script src="./jQuery/interface.js"></script>
       <title>Home</title>
     </head>
-    <body>
-      <h1>Welcome to #{title}</h1>
+    <body id="gradient">
+      <div>
+      <h1>AirBnB</h1>
+    <button id="bowl"><span>Test</span></button>
+
+<script>
+var array = [["address: 1 Drury Lane", "email: Timmy@gmail.com"],["address: the Meadows", "liz@mahon.com"]];
+document.getElementById('demo2').innerHTML = $.map(array, function(value) {
+  return( '<br>' + value );
+});
+</script>
+
+</div>
     </body>
   </html>
