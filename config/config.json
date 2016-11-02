@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "Rach",
+    "password": Shorefish1,
+    "database": "air_bnb_addresses_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "Rach",
+    "password": Shorefish1,
+    "database": "air_bnb_addresses_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "Rach",
+    "password": Shorefish1,
+    "database": "air_bnb_addresses_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
