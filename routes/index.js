@@ -5,10 +5,17 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-//   sequelize.query('SELECT * FROM addresses').then(function(addresses) {
-//     console.log(addresses);
-//   });
   res.render('index', { title: 'Express' });
 });
+
+router.get('/hostSignUp', function(req, res, next) {
+  res.render('hostSignUp');
+});
+
+router.get('/guestsignup', function(req, res, next) {
+  res.render('guestSignup');
+});
+
+
 
 module.exports = router;
