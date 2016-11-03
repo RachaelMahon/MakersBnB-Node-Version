@@ -17,5 +17,5 @@ describe("Makers BNB server test", function() {
         done();
       });
     });
-});
+  });
 });

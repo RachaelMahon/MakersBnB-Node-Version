@@ -12,7 +12,7 @@ var users = require('./routes/users');
 var app = express();
 
 var Sequelize = require('sequelize')
-  , sequelize = new Sequelize('air_bnb_addresses_test', 'tompage', '123', {
+  , sequelize = new Sequelize('air_bnb_addresses_test', 'ktsein', 'kyaw1990', {
       dialect: "postgres",
       port:    5432,
     });
