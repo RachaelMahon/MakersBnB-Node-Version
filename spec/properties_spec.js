@@ -6,6 +6,8 @@ var base_url = "http://localhost:3000";
 function Properties() {
   this.properties= [["address: 1 Drury Lane", "email: Timmy@gmail.com"],["address: the Meadows", "liz@mahon.com"]];
 }
+//this is the less worse way to stub out a function
+//spyOn(object, 'methodToStub').and.callThrough().and.callFake(functionWithMockDataieProperties)
 
 describe("Makers BNB server test", function() {
 
