@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+      "test": "jasmine-node spec"
   },
   "dependencies": {
     "body-parser": "~1.15.2",
@@ -12,8 +13,10 @@
     "ejs": "^2.5.2",
     "express": "~4.14.0",
     "jade": "~1.11.0",
+    "jasmine-node": "^1.14.5",
     "morgan": "~1.7.0",
     "pg": "^6.1.0",
+    "request": "^2.77.0",
     "sequelize": "^3.24.6",
     "serve-favicon": "~2.3.0"
   }
